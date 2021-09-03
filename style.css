@@ -1,0 +1,72 @@
+ body {
+	background-color: black;
+	margin: 50px;
+	color: white;
+	font-family: Courier New;
+ }
+ 
+ td {
+	 border: 2px solid #333333;
+	 padding: 0%;
+ }
+ 
+ #CodeDB {
+	 width: 100%;
+	 border-collapse: collapse;
+	 margin: 0px;
+	 text-align: center;
+ }
+ 
+ #TableHeader {
+	 background-color: #333333;
+	 border: 2px solid #333333;
+ }
+ 
+ #CodeDB tr.TableHeader {
+	 background-color: #333333;
+ }
+ 
+ #CodeDB tr:hover:not([name="head"]) {
+	 background-color: #1a1a1a;
+ }
+ 
+ p {
+	 color: white;
+ }
+ 
+ #category {
+	 height: 55px;
+	 width: 19%;
+	 border-collapse: collapse;
+	 margin: 0px;
+	 border: 0px;
+	 padding: 0px;
+	 border-left: 2px solid black;
+	 float: right;
+	 font-size: 150%;
+	 outline: none;
+	 border-radius: 0px 5px 5px 0px;
+ }
+ 
+ #search {
+	 height: 55px;
+	 width: 65%;
+	 outline: none;
+	 margin-left: 5px;
+	 border: 0px;
+	 padding: 0px;
+	 align-self: stretch;
+	 font-size: 150%;
+	 border-radius: 5px;
+ }
+ 
+ 
+ .searchbox {
+	 overflow: hidden;
+ }
+ 
+ .sbox {
+	 background-color: white;
+	 margin-bottom: 20px;
+	 border-radius: 5px;
+ }
